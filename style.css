@@ -1,0 +1,63 @@
+
+h1{
+    color: #ffd700;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/11/9ec44383d7297a03634bcd559ddd216a_1000x1000.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffd700;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.counter-item {
+    background-color: #16213e;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 100px;
+}
+.counter-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6ff86d;
+}
+.counter-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    color: #e94560;
+}
+@media (max-width: 600px) {
+    .counter {
+        flex-wrap: wrap;
+    }
+    .counter-item {
+        min-width: 80px;
+    }
+    .counter-value {
+        font-size: 2rem;
+    }
+}
